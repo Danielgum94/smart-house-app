@@ -1,0 +1,43 @@
+#main-div1{
+    background-color: rgb(165 243 252);
+    border: 2px solid rgb(0, 94, 23);
+    border-radius: 5px;
+    width: 30%;
+    height: 250px;
+    margin-left: 35%;
+}
+
+
+label{
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+#add-btn{
+    margin-top: 10%;
+    width: 50px;
+    background-color: #0095ff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin-left: -5px;
+    outline: none;
+    padding: 7px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+}

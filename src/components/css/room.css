@@ -1,0 +1,110 @@
+
+.main-room{
+    position: relative;
+    background-color: #ffffff;
+    opacity: 0.8;
+    background: radial-gradient(circle, transparent 20%, #f8f8fd 20%, #e5e5f7 80%, transparent 80%, transparent),
+     radial-gradient(circle, transparent 20%, #ffffff 20%, #e5e5f7 80%, transparent 80%, transparent) 25px 25px, 
+     linear-gradient(#6168f7 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #7077fd 2px, #e5e5f7 2px) -1px 0;
+    background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+    position: relative;
+    border: 2px solid black ;
+    width: 35%;
+    height: 400px;
+    margin-left: 33%;
+    border-radius: 5px;
+}
+
+
+.selcet-div{
+    position: absolute;
+    border-radius: 10px;
+    height: 70px;
+    width: 200px;
+    margin-top:30px;
+    margin-left: 115px;
+}
+
+#select{
+    position: absolute;
+    width: 175px;
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#add-prod-from-list{
+    position: absolute;
+    height: 25px;
+    color: #ffffff;
+    background-color: #17b2ea;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-left: 65px;
+}
+#add-prod-from-list:hover{
+    background-color: #6168f7;
+    color: gold;
+}
+
+#addprod-btn{
+    position: absolute;
+    margin-top: -2%;
+    width: 100px;
+    background-color: #0095ff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin-left: -50px;
+    outline: none;
+    padding: 7px .8em;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+.room-name{
+    display: flex;
+    font-size: 10px;
+    justify-content: left;
+    margin: 5px;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.room-name:hover{
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+}
+
+#prod-btn{
+    
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#return-btn{
+    cursor: pointer;
+    border-radius: 30px;
+    height: 30px;
+    margin-top:  250px;
+    margin-left: 2%;
+}
+
+#return-btn:hover {
+    background-color: rgb(255, 234, 118);
+}
+
